@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+header {
+    padding-left: 15px;
+    background-color: #167BF0;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    justify-content: space-between;
+}
+
+#om , #kontakt, #slå_recorder{
+    border: none;
+    background-color: #589eff;
+}
+
+#om:hover ,#kontakt:hover, #slå_recorder:hover{
+    background-color: #0053b3;
+}
+
+#nav {
+    display: flex;
+    justify-content:end;
+}
+
+#artikals, #artical2 , #Bilder2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pizza , #ball{
+    background-color: #167BF0;
+    max-width: 500px;
+    text-align: center;
+    margin: 10px;
+    padding: 1em;
+    padding-bottom: 3em;
+    border-radius: 50px;
+}
+
+#applay ,#Guinness_world_records, #World_Records, #Test_rekord{
+    background-color: #167BF0;
+    max-width: 500px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+}
+
+#applay:hover, #Guinness_world_records:hover, #World_Records:hover ,#Test_rekord:hover{
+    background-color: #0053b3;
+}
+
+#rekord_bilde {
+    border: 25px solid #167BF0;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#Hvordan_rekorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #167BF0;
+    max-width: 500px;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+#coke , #bok{
+    border: 25px solid #167BF0;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #artikals, #artical2 , #Bilder2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        width: 100%;
+        margin: 0%;
+        font-size: 10px;
+    }
+    #tellefon, #tellefon2{
+        width: 250px;
+    }
+
+  }
